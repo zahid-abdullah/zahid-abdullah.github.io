@@ -1,518 +1,551 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+<title>Andrew Smith - Responsive Resume / Personal Portfolio Template</title>
+<link rel="shortcut icon" href="favicon.ico">
 
-  <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
-
-    <title>I'm Zahid Abdullah Khan</title>
-    
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-
-    <link rel="stylesheet" type="text/css" href="css/fullpage.min.css">
-
-    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
-
-    <link rel="stylesheet" href="css/animate.css">
-
-    <link rel="stylesheet" href="css/templatemo-style.css">
-
-    <link rel="stylesheet" href="css/responsive.css">
-
-    </head>
-    
-    <body>
-    
-    <div id="video">
-        <div class="preloader">
-            <div class="preloader-bounce">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+<!-- Google Font-->
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300italic,300,100italic,100,400italic,500,500italic,700,900,900italic,700italic%7COswald:400,300,700' rel='stylesheet' type='text/css'>
+<!-- Design Style -->
+<link rel="stylesheet" type="text/css" href="css/scroll.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<!-- Icon -->
+<link src="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<!--<link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+ Portfolio Thumbnail / Slider -->
+<link rel="stylesheet" type="text/css" href="css/portfolio.css" />
+<link rel="stylesheet" type="text/css" href="css/carousel.css">
+<!-- Responsive -->
+<link rel="stylesheet" type="text/css" href="css/responsive.css" />
+<!-- Pie Chart / Skills -->
+<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+<!-- Send Email -->
+<script type="text/javascript" src="js/sendemail.js"></script>
+<!-- Progressbar / Skills-->
+<script type="text/javascript" src="js/progressbar.js"></script>
+<!-- Portfolio-->
+<script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+<div id="container" class="container"> 
+  <!-- Left Menu / Logo-->
+  <aside class="menu" id="menu">
+    <div class="logo"> 
+      <!-- Logo image--> 
+      <img src="images/logo.png" width="140" height="140" alt=""/> 
+      <!-- Logo name--> 
+      <span>Andrew Smith</span></div>
+    <!-- Mobile Navigation--> 
+    <a href="#menu1" class="menu-link"></a> 
+    <!-- Left Navigation-->
+    <nav id="menu1" role="navigation"> <a href="#chapterintroduction"><span id="link_introduction" class="active">Home</span></a> <a href="#chapterabout"><span id="link_about">About</span></a> <a href="#chapterskills"><span id="link_skills">Skills</span></a> <a href="#chapterexperience"><span id="link_experience">Experience</span></a> <a href="#chaptereducation"><span id="link_education">Education</span></a> <a href="#chapterportfolio"><span id="link_portfolio">Portfolio</span></a><a href="#chaptercontact"><span id="link_contact">Contact</span></a><a href="blog.html"><span id="link_blog">Blog</span></a></nav>
+    <div class="social"> <a href="https://www.facebook.com" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a> <a href="https://twitter.com" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a> <a href="https://plus.google.com" target="_blank" class="google-plus"><i class="fa fa-google-plus"></i></a> </div>
+    <div class="copyright"> © Andrew Smith.<br>
+      All Rights Reserved. </div>
+  </aside>
+  <!-- Go to top link for mobile device --> 
+  <a href="#menu" class="totop-link">Go to the top</a>
+  <div class="content-scroller">
+    <div class="content-wrapper"> 
+      
+      <!-- Introduction -->
+      <article class="content introduction noscroll" id="chapterintroduction">
+        <div class="inner">
+          <h2><span>HEllo, I'm</span><br>
+            Andrew Smith</h2>
+          <span class="title">UX Designer / Frontend Developer</span> </div>
+        <div id="owl-demo" class="owl-carousel">
+          <div class="item"><img src="images/profile.jpg" alt="" /></div>
+          <div class="item"><img src="images/profile-01.jpg" alt="" /></div>
+          <div class="item"><img src="images/profile-02.jpg" alt="" /></div>
         </div>
-
-        <header id="header">
-            <div class="container-fluid">
-                <div class="navbar">
-                    <a href="#" id="logo" title="Home Page for Zahid">
-                        Zahid
-                    </a>
-                    <div class="navigation-row">
-                        <nav id="navigation">
-                            <button type="button" class="navbar-toggle"> <i class="fa fa-bars"></i> </button>
-                            <div class="nav-box navbar-collapse">
-                                <ul class="navigation-menu nav navbar-nav navbars" id="nav">
-                                    <li data-menuanchor="slide01" class="active"><a href="#slide01">Home</a></li>
-                                    <li data-menuanchor="slide02"><a href="#slide02">About Me</a></li>
-                                    <li data-menuanchor="slide03"><a href="#slide03">Services</a></li>
-                                    <li data-menuanchor="slide04"><a href="#slide04">My Skills</a></li>
-                                    <li data-menuanchor="slide05"><a href="#slide05">My Work</a></li>
-                                    <li data-menuanchor="slide06"><a href="#slide06">Testimonials</a></li>
-                                    <li data-menuanchor="slide07"><a href="#slide07">Contact Me</a></li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </header>
-
-      <--  <video autoplay muted loop id="myVideo">
-          <source src="images/video-bg.mp4" type="video/mp4">
-        </video>  -->
-
-        <div id="fullpage" class="fullpage-default">
-
-            <div class="section animated-row" data-section="slide01">
-                <div class="section-inner">
-                    <div class="welcome-box">
-                        <span class="welcome-first animate" data-animate="fadeInUp">Hello, welcome to</span>
-                        <h1 class="welcome-title animate" data-animate="fadeInUp">elegance</h1>
-                        <p class="animate" data-animate="fadeInUp">This is a clean and modern HTML5 template with a video background. You can use this layout for your profile page. Please spread a word about templatemo to your friends. Thank you.</p>
-                        <div class="scroll-down next-section animate data-animate="fadeInUp""><img src="images/mouse-scroll.png" alt=""><span>Scroll Down</span></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section animated-row" data-section="slide02">
-                <div class="section-inner">
-                    <div class="about-section">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8 wide-col-laptop">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="about-contentbox">
-                                            <div class="animate" data-animate="fadeInUp">
-                                                <span>About Me</span>
-                                                <h2>Who am i?</h2>
-                                                <p>Credits go to <strong>Unsplash</strong> and <strong>Pexels</strong> for photos and video used in this template. Vivamus tincidunt, augue rutrum convallis volutpat, massa lacus tempus leo.</p>
-                                            </div>
-                                            <div class="facts-list owl-carousel">
-                                                <div class="item animate" data-animate="fadeInUp">
-                                                    <div class="counter-box">
-                                                        <i class="fa fa-trophy counter-icon" aria-hidden="true"></i><span class="count-number">32</span> Awards Won
-                                                    </div>
-                                                </div>
-                                                <div class="item animate" data-animate="fadeInUp">
-                                                    <div class="counter-box">
-                                                        <i class="fa fa-graduation-cap counter-icon" aria-hidden="true"></i><span class="count-number">4</span> Degrees
-                                                    </div>
-                                                </div>
-                                                <div class="item animate" data-animate="fadeInUp">
-                                                    <div class="counter-box">
-                                                        <i class="fa fa-desktop counter-icon" aria-hidden="true"></i><span class="count-number">12</span> Working Years
-                                                    </div>
-                                                </div>
-                                                <div class="item animate" data-animate="fadeInUp">
-                                                    <div class="counter-box">
-                                                        <i class="fa fa-support counter-icon" aria-hidden="true"></i><span class="count-number">6</span> Team Members
-                                                    </div>
-                                                </div>
-                                                <div class="item animate" data-animate="fadeInUp">
-                                                    <div class="counter-box">
-                                                        <i class="fa fa-certificate counter-icon" aria-hidden="true"></i><span class="count-number">10</span> Certificates
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <figure class="about-img animate" data-animate="fadeInUp"><img src="images/profile-girl.jpg" class="rounded" alt=""></figure>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section animated-row" data-section="slide03">
-                <div class="section-inner">
-                    <div class="row justify-content-center">
-                        <div class="col-md-8 wide-col-laptop">
-                            <div class="title-block animate" data-animate="fadeInUp">
-                                <span>Services</span>
-                                <h2>What I Do?</h2>
-                            </div>
-                            <div class="services-section">
-                                <div class="services-list owl-carousel">
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-bookmark" aria-hidden="true"></i></span>
-                                            <h3>Bootstrap Themes</h3>
-                                            <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu maximus enim tortor vitae quam. </p>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-cloud" aria-hidden="true"></i></span>
-                                            <h3>HTML5 Coding</h3>
-                                            <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu maximus enim tortor vitae quam. </p>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-desktop" aria-hidden="true"></i></span>
-                                            <h3>Fully Responsive</h3>
-                                            <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu maximus enim tortor vitae quam. </p>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-mobile" aria-hidden="true"></i></span>
-                                            <h3>Mobile Ready</h3>
-                                            <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu maximus enim tortor vitae quam. </p>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-comments" aria-hidden="true"></i></span>
-                                            <h3>Fast Support</h3>
-                                            <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu maximus enim tortor vitae quam. </p>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-database" aria-hidden="true"></i></span>
-                                            <h3>24-hour Up Time</h3>
-                                            <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu maximus enim tortor vitae quam. </p>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-bell" aria-hidden="true"></i></span>
-                                            <h3>Instant Upgrades</h3>
-                                            <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu maximus enim tortor vitae quam. </p>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-camera" aria-hidden="true"></i></span>
-                                            <h3>Always Monitoring</h3>
-                                            <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu maximus enim tortor vitae quam. </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section animated-row" data-section="slide04">
-                <div class="section-inner">
-                    <div class="row justify-content-center">
-                        <div class="col-md-7 wide-col-laptop">
-                            <div class="title-block animate" data-animate="fadeInUp">
-                                <span>My Skills</span>
-                                <h2>What i’m good?</h2>
-                            </div>
-                            <div class="skills-row animate" data-animate="fadeInDown">
-                                <div class="row">
-                                    <div class="col-md-8 offset-md-2">   
-                                        <div class="skill-item">
-                                            <h6>ASP.Net Core</h6>
-                                            <div class="skill-bar">
-                                                <span>90%</span>
-                                                <div class="filled-bar"></div>
-                                            </div>          
-                                        </div>
-                                        <div class="skill-item">
-                                            <h6>Angular</h6>
-                                            <div class="skill-bar">
-                                                <span>80%</span>
-                                                <div class="filled-bar-2"></div>
-                                            </div>          
-                                        </div>
-                                        <div class="skill-item">
-                                            <h6>Project Management</h6>
-                                            <div class="skill-bar">
-                                                <span>70%</span>
-                                                <div class="filled-bar"></div>
-                                            </div>          
-                                        </div>
-                                        <div class="skill-item last-skill">
-                                            <h6>Leadership</h6>
-                                            <div class="skill-bar">
-                                                <span>90%</span>
-                                                <div class="filled-bar-2"></div>
-                                            </div>          
-                                        </div>      
-                                       <div class="skill-item last-skill">
-                                            <h6>Entity Framework</h6>
-                                            <div class="skill-bar">
-                                                <span>80%</span>
-                                                <div class="filled-bar-2"></div>
-                                            </div>          
-                                        </div>  
-                                       <div class="skill-item last-skill">
-                                            <h6>Design Pattern</h6>
-                                            <div class="skill-bar">
-                                                <span>70%</span>
-                                                <div class="filled-bar-2"></div>
-                                            </div>          
-                                        </div>  
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section animated-row" data-section="slide06">
-                <div class="section-inner">
-                    <div class="row justify-content-center">
-                        <div class="col-md-8 wide-col-laptop">
-                            <div class="title-block animate" data-animate="fadeInUp">
-                                <span>My Work</span>
-                                <h2>what i’ve done?</h2>
-                            </div>
-                            <div class="gallery-section">
-                                <div class="gallery-list owl-carousel">
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-1.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap CSS templates.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-2.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap themes.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-3.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap layouts.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-1.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap templates.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-2.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download Bootstrap CSS templates.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-3.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap templates.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-1.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap templates.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-2.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap templates.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-3.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap templates.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section animated-row" data-section="slide05">
-                <div class="section-inner">
-                    <div class="row justify-content-center">
-                        <div class="col-md-8 wide-col-laptop">
-                            <div class="title-block animate" data-animate="fadeInUp">
-                                <span>TESTIMONIALS</span>
-                                <h2>what THEY SAY?</h2>
-                            </div>
-                            <div class="col-md-8 offset-md-2">
-                                <div class="testimonials-section">
-                                    <div class="testimonials-slider owl-carousel">
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="testimonial-item">
-                                                <div class="client-row">
-                                                    <img src="images/profile-01.jpg" class="rounded-circle" alt="profile 1">
-                                                </div>
-                                                <div class="testimonial-content">
-                                                    <h4>Sandar</h4>
-                                                    <p>"Ut varius leo eu mauris lacinia, eleifend posuere urna gravida. Aenean a mattis lacus."</p>
-                                                    <span>Managing Director</span>
-                                                </div>                                           
-                                            </div>
-                                        </div>
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="testimonial-item">
-                                                <div class="client-row">
-                                                    <img src="images/profile-01.jpg" class="rounded-circle" alt="profile 2">
-                                                </div>
-                                                <div class="testimonial-content">
-                                                    <h4>Shinn</h4>
-                                                    <p>"Nam iaculis, leo nec facilisis sollicitudin, dui massa tempus odio, vitae malesuada ante elit vitae eros."</p>
-                                                    <span>CEO and Founder</span>
-                                                </div>                                           
-                                            </div>
-                                        </div>
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="testimonial-item">
-                                                <div class="client-row">
-                                                    <img src="images/profile-01.jpg" class="rounded-circle" alt="profile 3">
-                                                </div>
-                                                <div class="testimonial-content">
-                                                    <h4>Marlar</h4>
-                                                    <p>"Etiam efficitur, tortor facilisis finibus semper, diam magna fringilla lectus, et fringilla felis urna posuere tortor."</p>
-                                                    <span>Chief Marketing Officer</span>
-                                                </div>                                           
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section animated-row" data-section="slide07">
-                <div class="section-inner">
-                    <div class="row justify-content-center">
-                        <div class="col-md-7 wide-col-laptop">
-                            <div class="title-block animate" data-animate="fadeInUp">
-                                <span>Contact</span>
-                                <h2>Get In Touch!</h2>
-                            </div>
-                            <div class="contact-section">
-                                <div class="row">
-                                    <div class="col-md-6 animate" data-animate="fadeInUp">
-                                        <div class="contact-box">
-                                            <div class="contact-row">
-                                                <i class="fa fa-map-marker"></i> 123 New Street Here, Wonderful City 10220
-                                            </div>
-                                            <div class="contact-row">
-                                                <i class="fa fa-phone"></i> 090 080 0210
-                                            </div>
-                                            <div class="contact-row">
-                                                <i class="fa fa-envelope"></i> info@company.co
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 animate" data-animate="fadeInUp">
-                                        <form id="ajax-contact" method="post" action="#">
-                                            <div class="input-field">
-                                                <input type="text" class="form-control" name="name" id="name" required placeholder="Name">
-                                            </div>
-                                            <div class="input-field">
-                                                <input type="email" class="form-control" name="email" id="email" required placeholder="Email">
-                                            </div>
-                                            <div class="input-field">
-                                                <textarea class="form-control" name="message" id="message" required placeholder="Message"></textarea>
-                                            </div>
-                                            <button class="btn" type="submit">Submit</button>
-                                        </form>
-                                        <div id="form-messages" class="mt-3"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      </article>
+      
+      <!-- About -->
+      <article class="content about white-bg" id="chapterabout">
+        <div class="inner">
+          <h2>About</h2>
+          <div class="title-divider"></div>
+          <div class="about-con">
+            <ul>
+              <li>Name: Andrew Smith</li>
+              <li>Email: <a href="mailto:andrew@gmail.com">andrew@gmail.com</a></li>
+              <li>Phone: (123) - 456-7890</li>
+              <li>Date of birth: 23 February 1986</li>
+              <li>Address: PO Box 16122 Collins Street West, Victoria, USA.</li>
+              <li>Nationality: United States</li>
+            </ul>
+            <h3>Professional Profile</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit.<br>
+            </p>
+            <a href="#" class="button">Download resume as PDF format</a> <img src="images/signature.png" class="signature" alt=""/> </div>
         </div>
-
-        <div id="social-icons">
-            <div class="text-right">
-                <ul class="social-icons">
-                    <li><a href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="#" title="Instagram"><i class="fa fa-behance"></i></a></li>
-                </ul>
+      </article>
+      
+      <!-- Skills -->
+      <article class="content skills gray-bg" id="chapterskills">
+        <div class="inner">
+          <h2>Skills</h2>
+          <div class="title-divider"></div>
+          <h3>Just My Awesome Skills</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit. Quisque varius eros ac purus dignissim.</p>
+          <div class="skills-con">
+            <div class="container-sub margin-top50">
+              <div class="row">
+                <div class="col-6 margin-bottom50">
+                  <div class="col-6"><span class="chart" data-percent="75"><span class="percent"></span> </span></div>
+                  <div class="col-6 chart-text">
+                    <h4>Film Editing</h4>
+                    <p>Expert, 4 years</p>
+                  </div>
+                </div>
+                <div class="col-6 margin-bottom50">
+                  <div class="col-6"><span class="chart" data-percent="88"><span class="percent"></span> </span></div>
+                  <div class="col-6 chart-text">
+                    <h4>Art Direction</h4>
+                    <p>Advanced, 2 years</p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="col-6"><span class="chart" data-percent="90"><span class="percent"></span> </span></div>
+                  <div class="col-6 chart-text">
+                    <h4>Technical Expertise</h4>
+                    <p>Expert, 8 years</p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="col-6"><span class="chart" data-percent="96"><span class="percent"></span> </span></div>
+                  <div class="col-6 chart-text">
+                    <h4>HTML5 CSS3</h4>
+                    <p>Expert, 8 years</p>
+                  </div>
+                </div>
+              </div>
             </div>
+            <div class="full-divider"></div>
+            <div class="container-sub skill-list">
+              <div class="row">
+                <h3>Knowledge</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit. Quisque varius eros ac purus dignissim.</p>
+                <div class="col-4 margin-top10">
+                  <ul>
+                    <li>Google Analythics & SEO</li>
+                    <li>Instal and Configure</li>
+                    <li>E-commerce Platform</li>
+                    <li>Color theory knowledge</li>
+                  </ul>
+                </div>
+                <div class="col-4 margin-top10">
+                  <ul>
+                    <li>Photo manipulation skills</li>
+                    <li>Digital Painting</li>
+                    <li>Photo Composition</li>
+                    <li>Good sense of Tipography</li>
+                  </ul>
+                </div>
+                <div class="col-4 margin-top10">
+                  <ul>
+                    <li>Web Usability</li>
+                    <li>Grid & Layout</li>
+                    <li>Portrait Retouching</li>
+                    <li>Video Editing</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="full-divider"></div>
+            <div class="container-sub">
+              <div class="row">
+                <h3>Language Skills</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit. Quisque varius eros ac purus dignissim.</p>
+                <div class="progressbar-main margin-top50">
+                  <div class="progress-bar-description">English Experienced</div>
+                  <div id="progressBar" class="progress">
+                    <div class="progress-value"></div>
+                  </div>
+                </div>
+                <div class="progressbar-main margin-top40">
+                  <div class="progress-bar-description">French Advanced</div>
+                  <div id="progressBar2" class="progress">
+                    <div class="progress-value"></div>
+                  </div>
+                </div>
+                <div class="progressbar-main margin-top40">
+                  <div class="progress-bar-description">German Basic</div>
+                  <div id="progressBar3" class="progress">
+                    <div class="progress-value"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>  
-
-    <script src="js/jquery.js"></script>
-
-    <script src="js/bootstrap.min.js"></script>
-
-    <script src="js/fullpage.min.js"></script>
-
-    <script src="js/scrolloverflow.js"></script>
-
-    <script src="js/owl.carousel.min.js"></script>
-
-    <script src="js/jquery.inview.min.js"></script>
-
-    <script src="js/form.js"></script>
-
-    <script src="js/custom.js"></script>
-
-
-  </body>
+      </article>
+      
+      <!-- Experience -->
+      <article class="content experience white-bg" id="chapterexperience">
+        <div class="inner">
+          <h2>Experience</h2>
+          <div class="title-divider"></div>
+          <h3>14 Years Experience!</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit. Quisque varius eros ac purus dignissim.</p>
+          <div class="experience-con">
+            <div class="container-sub">
+              <div class="full-divider"></div>
+              <div class="row">
+                <div class="experience-details">
+                  <div class="col-6 margin-bottom50 margin-top50">
+                    <div class="col-3 icon-block"><i class="fa fa-send-o"></i></div>
+                    <div class="flot-left">
+                      <h5>Panara Media</h5>
+                      <h4>Art Director</h4>
+                      <span>2014 - 2013</span> </div>
+                  </div>
+                  <div class="col-6 margin-bottom50 margin-top50 no-margin-top"> Phasellus nec gravida purus. Aliquam ac enim vel ipsum consectetur vulputate. Duis quis feugiat neque. Pellentesque eleifend, nisi vel mattis vestibulum, est lacus pretium quam. </div>
+                </div>
+                <div class="full-divider"></div>
+                <div class="experience-details">
+                  <div class="col-6 margin-bottom50 margin-top50">
+                    <div class="col-3 icon-block"><i class="fa fa-briefcase"></i></div>
+                    <div class="flot-left">
+                      <h5>Ace Advertising</h5>
+                      <h4>Project Manager</h4>
+                      <span>2013 - 2011</span> </div>
+                  </div>
+                  <div class="col-6 margin-bottom50 margin-top50 no-margin-top"> Phasellus nec gravida purus. Aliquam ac enim vel ipsum consectetur vulputate. Duis quis feugiat neque. Pellentesque eleifend, nisi vel mattis vestibulum, est lacus pretium quam. </div>
+                </div>
+                <div class="full-divider"></div>
+                <div class="experience-details">
+                  <div class="col-6 margin-bottom50 margin-top50">
+                    <div class="col-3 icon-block"><i class="fa fa-arrows-alt"></i></div>
+                    <div class="flot-left">
+                      <h5>Linksture Web</h5>
+                      <h4>Senior UX Designer</h4>
+                      <span>2011 - 2008</span> </div>
+                  </div>
+                  <div class="col-6 margin-bottom50 margin-top50 no-margin-top"> Phasellus nec gravida purus. Aliquam ac enim vel ipsum consectetur vulputate. Duis quis feugiat neque. Pellentesque eleifend, nisi vel mattis vestibulum, est lacus pretium quam. </div>
+                </div>
+                <div class="full-divider"></div>
+                <div class="experience-details">
+                  <div class="col-6 margin-bottom50 margin-top50">
+                    <div class="col-3 icon-block"><i class="fa fa-quote-right"></i></div>
+                    <div class="flot-left">
+                      <h5>Matrix Media</h5>
+                      <h4>Visual / UI Designer</h4>
+                      <span>2008 - 2006</span> </div>
+                  </div>
+                  <div class="col-6 margin-bottom50 margin-top50 no-margin-top"> Phasellus nec gravida purus. Aliquam ac enim vel ipsum consectetur vulputate. Duis quis feugiat neque. Pellentesque eleifend, nisi vel mattis vestibulum, est lacus pretium quam. </div>
+                </div>
+                <div class="full-divider"></div>
+                <div class="experience-details">
+                  <div class="col-6 margin-bottom50 margin-top50">
+                    <div class="col-3 icon-block"><i class="fa fa-bullhorn"></i></div>
+                    <div class="flot-left">
+                      <h5>Creatika Agency</h5>
+                      <h4>Graphic Designer</h4>
+                      <span>2006 - 2004</span> </div>
+                  </div>
+                  <div class="col-6 margin-bottom50 margin-top50 no-margin-top"> Phasellus nec gravida purus. Aliquam ac enim vel ipsum consectetur vulputate. Duis quis feugiat neque. Pellentesque eleifend, nisi vel mattis vestibulum, est lacus pretium quam. </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      
+      <!-- Education -->
+      <article class="content education gray-bg" id="chaptereducation">
+        <div class="inner">
+          <h2>Education</h2>
+          <div class="title-divider"></div>
+          <h3>Just My Education</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit. Quisque varius eros ac purus dignissim.</p>
+          <div class="education-con">
+            <div class="container-sub">
+              <div class="full-divider"></div>
+              <div class="row">
+                <div class="education-details">
+                  <div class="col-6 margin-bottom50 margin-top50">
+                    <div class="col-3 icon-block"><i class="fa fa-photo"></i></div>
+                    <div class="flot-left">
+                      <h5>University of Design</h5>
+                      <h4>Bachelor of Arts</h4>
+                      <span>2009 - 2010</span> </div>
+                  </div>
+                  <div class="col-6 margin-bottom50 margin-top50 no-margin-top"> Phasellus nec gravida purus. Aliquam ac enim vel ipsum consectetur vulputate. Duis quis feugiat neque. Pellentesque eleifend, nisi vel mattis vestibulum, est lacus pretium quam. </div>
+                </div>
+                <div class="full-divider"></div>
+                <div class="education-details">
+                  <div class="col-6 margin-bottom50 margin-top50">
+                    <div class="col-3 icon-block"><i class="fa fa-laptop"></i></div>
+                    <div class="flot-left">
+                      <h5>Boston State University</h5>
+                      <h4>Visual Art & Design</h4>
+                      <span>2006 - 2007</span> </div>
+                  </div>
+                  <div class="col-6 margin-bottom50 margin-top50 no-margin-top"> Phasellus nec gravida purus. Aliquam ac enim vel ipsum consectetur vulputate. Duis quis feugiat neque. Pellentesque eleifend, nisi vel mattis vestibulum, est lacus pretium quam. </div>
+                </div>
+                <div class="full-divider"></div>
+                <div class="education-details">
+                  <div class="col-6 margin-bottom50 margin-top50">
+                    <div class="col-3 icon-block"><i class="fa fa-life-bouy"></i></div>
+                    <div class="flot-left">
+                      <h5>Boston State University</h5>
+                      <h4>Degree of Design</h4>
+                      <span>2004 - 2005</span> </div>
+                  </div>
+                  <div class="col-6 margin-bottom50 margin-top50 no-margin-top"> Phasellus nec gravida purus. Aliquam ac enim vel ipsum consectetur vulputate. Duis quis feugiat neque. Pellentesque eleifend, nisi vel mattis vestibulum, est lacus pretium quam. </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      
+      <!-- Pportfolio -->
+      <article class="content portfolio white-bg" id="chapterportfolio">
+        <div class="inner">
+          <h2>Portfolio</h2>
+          <div class="title-divider"></div>
+          <h3>Our portfolio features a variety of projects and services</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit. Quisque varius eros ac purus dignissim.</p>
+          <div class="portfolio-con">
+            <div class="container-sub margin-top50">
+              <div class="row">
+                <div id="grid-gallery" class="grid-gallery">
+                  <section class="grid-wrap">
+                    <ul class="grid">
+                      <li>
+                        <figure> <img src="images/work1.jpg" alt=""/>
+                          <figcaption>
+                            <div class="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
+                              <h3>The Flavour Restaurant</h3>
+                              <span>Website Design & Development</span> </div>
+                          </figcaption>
+                        </figure>
+                      </li>
+                      <li>
+                        <figure> <img src="images/work2.jpg" alt="" />
+                          <figcaption>
+                            <div class="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
+                              <h3>Herbal Beauty Salon</h3>
+                              <span>Photography</span> </div>
+                          </figcaption>
+                        </figure>
+                      </li>
+                      <li>
+                        <figure> <img src="images/work3.jpg" alt="" />
+                          <figcaption>
+                            <div class="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
+                              <h3>Kayra Modelleri</h3>
+                              <span>Branding and Identity</span> </div>
+                          </figcaption>
+                        </figure>
+                      </li>
+                      <li>
+                        <figure> <img src="images/work4.jpg" alt="" />
+                          <figcaption>
+                            <div class="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
+                              <h3>Fashion and You</h3>
+                              <span>APPS and Web Design</span> </div>
+                          </figcaption>
+                        </figure>
+                      </li>
+                      <li>
+                        <figure> <img src="images/work5.jpg" alt="" />
+                          <figcaption>
+                            <div class="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
+                              <h3>Whole Food Flour</h3>
+                              <span>Branding and Identity</span> </div>
+                          </figcaption>
+                        </figure>
+                      </li>
+                    </ul>
+                  </section>
+                  
+                  <!-- Lightbox Popup -->
+                  <section class="slideshow">
+                    <ul>
+                      <li>
+                        <figure>
+                          <figcaption>
+                            <h3>The Flavour Restaurant</h3>
+                            <span>Website Design & Development</span>
+                            <p>Kale chips lomo biodiesel stumptown Godard Tumblr, mustache sriracha tattooed cray aute slow-carb placeat delectus. Letterpress asymmetrical fanny pack art party est pour-over skateboard anim quis, 						ullamco craft beer.</p>
+                          </figcaption>
+                          <div id="owl-demo1" class="owl-carousel">
+                            <div class="item"><img src="images/work-details1.jpg" alt="" /></div>
+                            <div class="item"><img src="images/work-details2.jpg" alt="" /></div>
+                            <div class="item"><img src="images/work-details3.jpg" alt="" /></div>
+                            <div class="item"><img src="images/work-details4.jpg" alt="" /></div>
+                            <div class="item"><img src="images/work-details5.jpg" alt="" /></div>
+                          </div>
+                        </figure>
+                      </li>
+                      <li>
+                        <figure>
+                          <figcaption>
+                            <h3>Herbal Beauty Salon</h3>
+                            <span>Photography</span>
+                            <p>Kale chips lomo biodiesel stumptown Godard Tumblr, mustache sriracha tattooed cray aute slow-carb placeat delectus. Letterpress asymmetrical fanny pack art party est pour-over skateboard anim quis, ullamco craft beer.</p>
+                          </figcaption>
+                          <img src="images/work2.jpg" alt="" /></figure>
+                      </li>
+                      <li>
+                        <figure>
+                          <figcaption>
+                            <h3>Kayra Modelleri</h3>
+                            <span>Branding and Identity</span>
+                            <p>Kale chips lomo biodiesel stumptown Godard Tumblr, mustache sriracha tattooed cray aute slow-carb placeat delectus. Letterpress asymmetrical fanny pack art party est pour-over skateboard anim quis, ullamco craft beer.</p>
+                          </figcaption>
+                          <div id="owl-demo2" class="owl-carousel">
+                            <div class="item"><img src="images/work3.jpg" alt="" /></div>
+                            <div class="item"><img src="images/work1.jpg" alt="" /></div>
+                            <div class="item"><img src="images/work2.jpg" alt="" /></div>
+                            <div class="item"><img src="images/work4.jpg" alt="" /></div>
+                            <div class="item"><img src="images/work5.jpg" alt="" /></div>
+                          </div>
+                        </figure>
+                      </li>
+                      <li>
+                        <figure>
+                          <figcaption>
+                            <h3>Fashion and You</h3>
+                            <span>APPS and Web Design</span>
+                            <p>Kale chips lomo biodiesel stumptown Godard Tumblr, mustache sriracha tattooed cray aute slow-carb placeat delectus. Letterpress asymmetrical fanny pack art party est pour-over skateboard anim quis, ullamco craft beer.</p>
+                          </figcaption>
+                          <iframe width="854" height="480" src="//www.youtube.com/embed/ZwzY1o_hB5Y" frameborder="0" allowfullscreen></iframe> </figure>
+                      </li>
+                      <li>
+                        <figure>
+                          <figcaption>
+                            <h3>Whole Food Flour</h3>
+                            <span>Branding and Identity</span>
+                            <p>Kale chips lomo biodiesel stumptown Godard Tumblr, mustache sriracha tattooed cray aute slow-carb placeat delectus. Letterpress asymmetrical fanny pack art party est pour-over skateboard anim quis, ullamco craft beer.</p>
+                          </figcaption>
+                          <img src="images/work5.jpg" alt="" /> </figure>
+                      </li>
+                    </ul>
+                    <nav> <span class="fa nav-prev"></span> <span class="fa nav-next"></span> <span class="fa nav-close"></span> </nav>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      
+      <!-- Contact -->
+      <article class="content contact gray-bg" id="chaptercontact">
+        <div class="inner">
+          <h2>Contact</h2>
+          <div class="title-divider"></div>
+          <h3>Let's Keep In Touch</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit. Quisque varius eros ac purus dignissim.</p>
+          <div class="full-divider"></div>
+          <div class="contact-con margin-top50">
+            <div class="container-sub">
+              <div class="row">
+                <div class="contact-details">
+                  <div class="col-6">
+                    <div class="contact-text">
+                      <div class="col-2 icon-block address"><i class="fa fa-map-marker"></i></div>
+                      <div class="flot-left"> <strong>Andrew Smith</strong><br>
+                        PO Box 16122 Collins Street West,<br>
+                        Victoria 8007, United States. </div>
+                    </div>
+                    <div class="contact-text">
+                      <div class="col-2 icon-block phone"><i class="fa fa-phone"></i></div>
+                      <div class="flot-left"> <strong>Phone</strong><br>
+                        +123-456-7890 </div>
+                    </div>
+                    <div class="contact-text">
+                      <div class="col-2 icon-block email"><i class="fa fa-envelope"></i></div>
+                      <div class="flot-left"> <strong>Email</strong><br>
+                        <a href="mailto:no-reply@domain.com">no-reply@domain.com</a> </div>
+                    </div>
+                  </div>
+                  <div class="col-6 m-margin-top30">
+                    <h3>I'm also on Social Networks</h3>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor.
+                    <div class="contact-social margin-top30"><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a> <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a> <a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a><a href="https://plus.google.com" target="_blank"><i class="fa fa-google-plus"></i></a><a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin"></i></a> </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="full-divider"></div>
+            <div class="container-sub">
+              <div class="row">
+                <div class="contact-form">
+                  <h3>Drop Me a Line</h3>
+                  <form id="form1" name="form1" method="post" >
+                    <input name="name" type="text" id="name" placeholder="Your Name..." />
+                    <input name="email" type="text" id="email" placeholder="Your Email..." />
+                    <textarea name="message" id="message" cols="45" rows="5" placeholder="Your Message..."></textarea>
+                    <input type="submit" name="button" id="button" value="say hello!" >
+                    <div id="successmsg" ></div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      
+      <!-- Introduction -->
+      <article class="content introduction-end" id="chapterthankyou">
+        <div class="inner">
+          <div class="introduction-end-con margin-top50">
+            <h3><strong>Andrew Smith</strong></h3>
+            <div id="rotate" class="rotate">
+              <div><span>awesome.</span></div>
+              <div><span>invincible.</span></div>
+              <div><span>unbeatable.</span></div>
+              <div><span>indestructible.</span></div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+    <!-- content-wrapper --> 
+  </div>
+  <!-- content-scroller --> 
+</div>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/head.min.js"></script>
+<!-- Portfolio Thumbnail --> 
+<script type="text/javascript" src="js/imagesloaded.min.js"></script> 
+<script type="text/javascript" src="js/masonry.min.js"></script> 
+<script type="text/javascript" src="js/class_helper.js"></script> 
+<script type="text/javascript" src="js/grid_gallery.js"></script> 
+<!-- Portfolio Grid --> 
+<script>
+    new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
+</script>
+<!-- Portfolio Slider--> 
+<script type="text/javascript"  src="js/carousel.js"></script> 
+<script type="text/javascript" src="js/jquery.easypiechart.js"></script> 
+<script type="text/javascript" src="js/text.rotator.js"></script>
+<!-- Page Scrolling --> 
+<script>
+head.js(
+		{ mousewheel : "js/jquery.mousewheel.js" },
+		{ mwheelIntent : "js/mwheelIntent.js" },
+		{ jScrollPane : "js/jquery.jscrollpane.min.js" },
+		{ history : "js/jquery.history.js" },
+		{ stringLib : "js/core.string.js" },
+		{ easing : "js/jquery.easing.1.3.js" },
+		{ smartresize : "js/jquery.smartresize.js" },
+		{ page : "js/jquery.page.js" }
+		);
+</script>  
+<!-- Fit Video --> 
+<script type="text/javascript"  src="js/jquery.fitvids.js"></script>
+<!-- All Javascript Component--> 
+<script src="js/settings.js"></script>
+</body>
 </html>
