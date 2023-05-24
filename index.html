@@ -30,9 +30,19 @@
     <script type="text/javascript" src="js/progressbar.js"></script>
     <!-- Portfolio-->
     <script src="js/modernizr.custom.js"></script>
+
+    <script type="text/javascript">
+        function calculate_age() {
+            const dob = new Date(2012, 3, 12);
+            var diff_ms = Date.now() - dob.getTime();
+            var age_dt = new Date(diff_ms);
+
+            document.getElementById("expr").innerHTML = Math.abs(age_dt.getUTCFullYear() - 1970) + " Years of Experience";;
+        }
+    </script>
 </head>
 
-<body>
+<body onload="javascript:calculate_age()">
     <div id="container" class="container">
         <!-- Left Menu / Logo-->
         <aside class="menu" id="menu">
@@ -204,7 +214,9 @@
                     <div class="inner">
                         <h2>Experience</h2>
                         <div class="title-divider"></div>
-                        <h3>14 Years Experience!</h3>
+                        <h3>
+                            <p id="expr">Test</p>
+                        </h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit.
                             Quisque varius eros ac purus dignissim.</p>
                         <div class="experience-con">
