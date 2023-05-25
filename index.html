@@ -39,6 +39,36 @@
 
             document.getElementById("expr").innerHTML = Math.abs(age_dt.getUTCFullYear() - 1970) + " Years of Experience";;
         }
+
+
+        var addHandler = function(element, type, handler) {
+            if (element.addEventListener) {
+                element.addEventListener(type, handler, false);
+            } else if (element.attachEvent) {
+                element.attachEvent("on" + type, handler);
+            } else {
+                element["on" + type] = handler;
+            }
+        };
+
+        var preventDefault = function(event) {
+            if (event.preventDefault) {
+                event.preventDefault();
+            } else {
+                event.returnValue = false;
+            }
+        };
+
+        addHandler(window, "contextmenu", function(event) {
+            preventDefault(event);
+        });
+        document.onkeydown = function(event) {
+            if (event.keyCode == 123) { // Prevent F12
+                return false;
+            } else if (event.ctrlKey && event.shiftKey && event.keyCode == 73) { // Prevent Ctrl+Shift+I        
+                return false;
+            }
+        };
     </script>
 </head>
 
